@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the game */
+body {
+    margin: 0;
+}
+
+#game-canvas {
+    display: block;
+}
+
+/* Animate.css override for modal */
+.animate__animated.animate__fadeIn {
+    --animate-duration: 0.5s;
+}
